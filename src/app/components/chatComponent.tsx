@@ -5,7 +5,6 @@ export default function ChatComponent() {
     // Vercel AI SDK (AI package)
     // useChat() -> handles messages, user input, user submits etc.
     const { input, handleInputChange, handleSubmit, messages } = useChat();
-
     // messages -> [user q, gpt resp, user q, gpt resp]
 
     console.log(messages);
@@ -27,7 +26,6 @@ export default function ChatComponent() {
                         </div>
                         ))}
                     </div>
-
                     <div className="mt-4">
                         <div>
                         <h3 className="text-lg font-semibold mt-2">GitBot</h3>
@@ -36,7 +34,7 @@ export default function ChatComponent() {
                     </div>
 
                     <form className="mt-auto mb-5" onSubmit={handleSubmit}>
-                            <p>User Message</p>
+                            <p className="ml-1">User Message</p>
                             <textarea
                                 className="mt-2 w-full bg-slate-700 rounded-md"
                                 placeholder=" How to center a div?"
