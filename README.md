@@ -1,6 +1,6 @@
-Welcome to GitGPT. Leverage the power of ChatGPT into your preferred GitHub repository and watch it work its magic! Connect to whatever repository you seem to be struggling with, and ask any coding-related questions about it!
+Welcome to GitGPT. Leverage the power of ChatGPT into your preferred GitHub repository and watch it work its magic! Connect to whatever repository you seem to be struggling with, and ask any coding-related questions related to it!
 
-This project was created in Next.js and Langchain.
+This project was created using Next.js and Langchain.
 
 ## Getting Started
 

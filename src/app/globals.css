@@ -1,8 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-.bg-text1 {
-    color: white;
-    font-size: 300%;
-}
