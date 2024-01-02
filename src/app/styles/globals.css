@@ -57,6 +57,33 @@
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
+.cool-button-2 {
+  padding: 16px 32px;
+  font-size: 1.2rem;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+  animation: pop-in 2s forwards;
+}
+
+@keyframes pop-in {
+  from {
+      opacity: 0;
+      transform: translateX(-20px);
+  }
+
+  to {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+.cool-button-2:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
 .github-button {
   display: flex;
   align-items: center;
