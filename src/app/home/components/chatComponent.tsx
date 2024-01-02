@@ -24,7 +24,7 @@ export default function ChatComponent() {
                 <h3 className="text-lg font-semibold mt-2">User</h3>
               )}
               {message.content.split("\n").map((currentTextBlocks: string, index: number) => (
-                <p key={message.id + index} className={message.role === "assistant" ? "rounded-lg typewriter-2" : ""}>
+                <p key={message.id + index} className={message.role === "assistant" ? "rounded-lg " : ""}>
                   {currentTextBlocks}
                 </p>
               ))}

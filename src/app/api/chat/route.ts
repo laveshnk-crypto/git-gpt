@@ -25,7 +25,7 @@ export async function POST(request: Request) {
         model: 'gpt-3.5-turbo-1106',
         stream: true,
         messages: [
-            { role: "system", content: "You are a helpful assistant."},
+            { role: "system", content: "You are GitBot, a helpful AI assistant."},
             ...messages
         ]
     })
