@@ -13,13 +13,11 @@ export default function HomePage() {
 
   const handleSignOut = async () => {
     await signOut();
-
-
+    setShowSignOutAlert(true);
+    
     setTimeout(() => {
-      setShowSignOutAlert(true);
-    }), 30000;
-
-
+      setShowSignOutAlert(false);
+    }, 5000);
   };
 
   if (status === "unauthenticated") {
