@@ -56,7 +56,40 @@
     transform: translateY(-3px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
-  
+
+.github-button {
+  display: flex;
+  align-items: center;
+  padding: 0 32px; /* Adjust padding as needed */
+  font-size: 1.2rem;
+  height: 50px;
+  color: white;
+  background: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  animation: pop-in 2s forwards;
+}
+
+@keyframes pop-in {
+  from {
+      opacity: 0;
+      transform: translateX(-20px);
+  }
+
+  to {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+.github-button:hover {
+  background: linear-gradient(to right, #1a319a, #764ebc );
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
 .typewriter {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid transparent orange; /* The typwriter cursor */
